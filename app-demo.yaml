@@ -17,6 +17,9 @@ spec:
           image: gcr.io/double-aleph-348710/app-demo-ms:v1
           ports:
             - containerPort: 8081
+          env:
+          - name: NODE_ENV
+            value: production
 
           
 
